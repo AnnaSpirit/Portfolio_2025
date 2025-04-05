@@ -66,3 +66,15 @@ for letter2 in cryptedtext2:
         letter2index = alphabet.index(letter2.lower())
         uncryptedtext2 += alphabet[letter2index - 3]
 print(uncryptedtext2)
+
+
+
+# NOTE: Le chiffrement peut aussi être représenté en utilisant les congruences sur les entiers. En commençant par transformer chaque lettre en un nombre (A = 0, B = 1, etc., Z = 25)[1], pour encoder une lettre x {\displaystyle x} avec une clé n il suffit d'appliquer la formule :
+# E n ( x ) = ( x + n )   [ 26 ] {\displaystyle E_{n}(x){=}(x+n)\ [26]}
+
+# Le déchiffrement consiste à utiliser la clé opposée ( − n {\displaystyle -n} à la place de n {\displaystyle n}) :
+
+# D n ( x ) = ( x − n )   [ 26 ] {\displaystyle D_{n}(x){=}(x-n)\ [26]}
+
+# On peut s'arranger pour que le résultat soit toujours représenté par un entier de 0 à 25 : si x + n {\displaystyle x+n} (respectivement x − n {\displaystyle x-n}) n'est pas dans l'intervalle [ 0 , 25 ] {\displaystyle [0,25]}, il suffit de soustraire (respectivement ajouter) 26. 
+# LINK: https://fr.wikipedia.org/wiki/Chiffrement_par_d%C3%A9calage
