@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: antiquewhite;
+}
+
+body {
+    background-image: url("cover.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    width: 100%;
+}
+
+#top-nav {
+    margin: none;
+    background-color: white;
+    height: 60px;
+    opacity: 80%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-logo {
+    padding: 7px;
+}
+
+#top-nav-ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#top-nav-ul>li>a {
+    color: rgb(63, 52, 52);
+    font-weight: bold;
+    height: 100%;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 20px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Moon Knight {
+    margin-top: 400px;
+    padding-left: 80px;
+
+
+}
+
+#Marc Spector {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    padding-right: 50px;
+    background-image: url(fond-hover.bmp)
+}
+
+/* 
+#Marc Spector: hover {
+    <a href="https: //aiptcomics.com/wp-content/uploads/2016/12/MOONKN2016010_int2-1.jpeg" title="Moon Knight"></a> */
+
+#desc {
+    color: white;
+    font-size: 15px;
+    height: 620px;
+    width: 430px;
+    text-align: justify;
+    width: 40%;
+}

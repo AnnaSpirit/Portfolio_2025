@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #b12e2e98;
+    height: 60px;
+}
+
+.fa-solid {
+    color: black;
+}
+
+li {
+    float: left;
+    display: block;
+    list-style-type: none;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border: 1px red;
+
+}
+
+.log {
+    /* font-size: 40px;
+    font-weight: bolder; */
+    float: right;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+    width: 20%;
+}
+
+p {
+    text-align: center;
+    border: 5px dotted rgb(142, 30, 142);
+    background-color: rgb(255, 221, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* The 2 log pages have some difference, why? */
+}
+
+.input {
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+    /* padding-left: 25px; */
+
+
+    /* I want to align vertically all input*/
+}
+
+.lab {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: x-large;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(244, 213, 119);
+    color: rgb(253, 58, 58);
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+img {
+    height: 300px;
+    width: 650px;
+    padding: 10px;
+    border: thick double springgreen;
+}
+
+.Igm {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 5px 5px 2px red;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline blueviolet;
+    text-transform: capitalize;
+}
+
+#cat-senses {
+    margin-left: 75px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,
+th {
+    text-align: center;
+    border: 3px solid rgb(242, 24, 184);
+    padding: 10px;
+}
+
+#table-header {
+    color: rgb(242, 24, 184);
+    font-weight: bold;
+    font-size: 30px;
+    border: 6px solid red;
+}
+
+.Cate {
+    font-weight: bold;
+    font-size: 28px;
+}

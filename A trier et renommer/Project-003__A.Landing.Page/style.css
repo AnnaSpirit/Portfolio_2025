@@ -1,0 +1,125 @@
+/* https: //www.w3schools.com/css/tryit.asp?filename=trycss_transparency */
+.background {
+    position: relative;
+}
+
+.transbox {
+    position: absolute;
+    top: -370px;
+    left: 105px;
+}
+
+div.background {
+    background-repeat: repeat;
+    /* position: absolute; */
+    /* top: 45px;
+    left: 150px;
+    right: 150px;
+    bottom: 45px; */
+    opacity: 1;
+
+    border: 2px solid rgb(29, 132, 6);
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(29, 132, 6);
+    opacity: 0.6;
+
+
+}
+
+/* text-align: center; */
+/* } */
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    /* color: whitesmoke; */
+    color: black;
+
+}
+
+.transbox {
+    margin: 0 auto;
+}
+
+#submit {
+    color: red;
+    background-color: pink;
+}
+
+#submit:hover {
+    color: white;
+    background-color: red;
+}
+
+.form {
+    text-align: left;
+    /* text-indent: 40px; */
+}
+
+#div .element {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    background-color: rgb(44, 214, 214);
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elements {
+    text-transform: uppercase;
+    /* line-height: 2.5; */
+    font-size: 22px;
+    color: darkslategrey;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#container {
+    border: 1px solid black;
+    width: 500px;
+}
+
+/* 
+button {
+    background-color: Blue;
+    border: Black;
+    color: White;
+    padding: 16px 32px;
+    text-align: center;
+    display: grid;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+} */
