@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emoji Guessing Game 🎮</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>🎯 Guess the Emoji!</h1>
+    <div id="game">
+      <div id="emoji" style="font-size: 5rem">❓</div>
+      <div id="options"></div>
+      <p id="feedback"></p>
+      <p>🧮 Score: <span id="score">0</span></p>
+
+      <!-- 🎚️ Difficulty Section -->
+      <div class="control-section">
+        <label for="difficulty">🎯 Select difficulty:</label>
+        <select id="difficulty">
+          <option value="easy">Easy (1 point per correct answer)</option>
+          <option value="hard">Hard (3 points per correct answer)</option>
+        </select>
+      </div>
+
+      <!-- 🧑 Player Name Section -->
+      <div class="control-section">
+        <label for="playerName">� Your name:</label>
+        <input type="text" id="playerName" placeholder="Enter your name" />
+      </div>
+
+      <!-- 🎮 Game Controls Section -->
+      <div class="control-section">
+        <button id="restartBtn" class="game-btn restart-btn">
+          � Restart Game
+        </button>
+      </div>
+
+      <div class="control-section">
+        <button id="stopBtn" class="game-btn stop-btn">
+          🛑 Stop Game & Export
+        </button>
+      </div>
+
+      <!-- 🏆 Leaderboard Section -->
+      <h2>🏆 Leaderboard</h2>
+      <ul id="leaderboard"></ul>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

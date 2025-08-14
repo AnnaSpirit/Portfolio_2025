@@ -1,0 +1,66 @@
+# ——— Dossiers à ignorer individuellement ———
+
+# Éditeur / config locale
+.vscode/
+
+# Ignorer certains sous-dossiers de travail dans /Bases
+
+
+# Ignorer certains sous-dossiers de travail 
+
+
+# Ignore Word ou Excel documents 
+*.docx
+*.xlsx
+
+# Ignore fichier HD
+*.ini 
+
+
+
+# Ignorer tous les dossiers screenshot_course, peu importe où ils sont
+**/screenshot_course/
+
+# Fichier sensible
+/Bases/OK/Info Passwords Tools.txt
+
+
+# ——— Node 🔰 —
+# Ignorer node_modules et package-lock
+**/node_modules/
+**/package-lock.json
+
+# ——— Python 🐍 ———
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+.env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers d'environnement (API keys etc)
+.env
+.env.*
+
+# Logs et bases locales
+*.log
+*.sqlite3
+
+# Fichiers de packaging/build
+*.spec
+dist/
+build/
+*.egg-info/
+
+# Ne PAS ignorer Thunder Client (=Postman)
+!.vscode/thunder-tests/**
+
+
+
+# AnnaSpirit Approved™ 🔥🐍🚀
+
